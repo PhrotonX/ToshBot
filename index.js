@@ -1,4 +1,4 @@
-//TOSHBOT v0.1.0.1 alpha build 7
+//TOSHBOT v0.1.0.1 alpha build 8
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -28,13 +28,5 @@ for(const file of eventFiles){
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
-
-client.once('ready', () => {
-	console.log(`Ready! Logged in as ${c.user.tag}`);
-});
-
-client.on('interactionCreate', async interaction => {
-	console.log(`${interaction.user.tag} in#${interaction.channel.name} triggered an interaction.`);
-});
 
 client.login(token);
