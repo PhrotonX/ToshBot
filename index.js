@@ -1,4 +1,4 @@
-//TOSHBOT v0.1.0.1 alpha build 10
+//TOSHBOT v0.1.0.1 alpha build 11
 
 const fs = require('node:fs');
 const path = require('node:path');
