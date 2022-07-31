@@ -1,4 +1,4 @@
-//TOSHBOT v0.1.0.1 alpha build 3
+//TOSHBOT v0.1.0.1 alpha build 4
 
 // Require the necessary discord.js classes
 const { Client, GatewayIntentBits } = require('discord.js');
@@ -24,7 +24,7 @@ client.on('interactionCreate', async interaction =>{
 	}else if(commandName === 'user'){
 		await interaction.reply('User info.');
 	}
-})
+});
 
 // Login to Discord with your client's token
 client.login(token);
