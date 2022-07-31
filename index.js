@@ -1,4 +1,4 @@
-//TOSHBOT v0.1.0.1 alpha test 1
+//TOSHBOT v0.1.0.1 alpha build 2
 
 // Require the necessary discord.js classes
 const { Client, GatewayIntentBits } = require('discord.js');
