@@ -1,10 +1,9 @@
-//TOSHBOT v0.1.0.1 alpha build 13
+//TOSHBOT v0.1.0.1 alpha build 14
 
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
-const { version } = require('./config.json');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
